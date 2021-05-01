@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DrunkWalkDetector</string>
+
+    <string name="et_enter_emergency_contact">Enter emergency contact</string>
+    <string name="btn_save_contact">Save Contact</string>
+    <string name="btn_remove_contact">Remove Contact</string>
+
+
+    <string name="error_message_number">Please enter contact number</string>
+
+</resources>
