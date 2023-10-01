@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 13.014 s <<< FAILURE! - in TestSuite
+com.AutomationAnywhere.TestNG_Program3.implementProgram3  Time elapsed: 4.261 s  <<< FAILURE!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:50597/devtools/browser/ad32a865-d1b4-483b-ac3c-7f7290c18406
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'MJ-HP', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: ChromeDriver
+	at com.AutomationAnywhere.TestNG_Program3.implementProgram3(TestNG_Program3.java:19)
+
+com.AutomationAnywhere.TestNG_Program4.implementProgram4  Time elapsed: 5.307 s  <<< FAILURE!
+org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:50613/devtools/browser/8fa184c0-e0f0-4081-b187-8bc8793cfc60
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'MJ-HP', ip: '192.168.1.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2.1'
+Driver info: driver.version: ChromeDriver
+	at com.AutomationAnywhere.TestNG_Program4.implementProgram4(TestNG_Program4.java:18)
+

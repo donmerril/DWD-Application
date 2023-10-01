@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AutomationAnywhere">
+    <test name="TestNG_Program3">
+        <classes>
+            <class name="com.AutomationAnywhere.TestNG_Program3"/>
+        </classes>
+    </test>
+    <test name="TestNG_Program4">
+        <classes>
+            <class name="com.AutomationAnywhere.TestNG_Program4"/>
+        </classes>
+    </test>
+</suite>

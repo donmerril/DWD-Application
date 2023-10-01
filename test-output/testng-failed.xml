@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutomationAnywhere]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestNG_Program3(failed)">
+    <classes>
+      <class name="com.AutomationAnywhere.TestNG_Program3">
+        <methods>
+          <include name="implementProgram3"/>
+        </methods>
+      </class> <!-- com.AutomationAnywhere.TestNG_Program3 -->
+    </classes>
+  </test> <!-- TestNG_Program3(failed) -->
+  <test thread-count="5" name="TestNG_Program4(failed)">
+    <classes>
+      <class name="com.AutomationAnywhere.TestNG_Program4">
+        <methods>
+          <include name="implementProgram4"/>
+        </methods>
+      </class> <!-- com.AutomationAnywhere.TestNG_Program4 -->
+    </classes>
+  </test> <!-- TestNG_Program4(failed) -->
+</suite> <!-- Failed suite [AutomationAnywhere] -->
