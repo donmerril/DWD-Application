@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="com.Capstone_project">
+    <test name="WordPress_smokeTest">
+        <classes>
+            <class name="testRunner.TestRun"/>
+        </classes>
+    </test>
+   
+</suite>

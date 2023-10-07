@@ -1,0 +1,113 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2023-10-07T07:31:52.401Z",
+        "line": 5,
+        "name": "Verify the WordPress websiteo",
+        "description": "",
+        "id": "wordpress-website-testing;verify-the-wordpress-websiteo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14231221700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the WordPress website \"https://wordpress.org/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://wordpress.org/\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.WordPress_StepDefinitions.openWordPressWebsite(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 17986300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I verify the title of the page is as expected",
+            "match": {
+              "location": "stepDefinitions.WordPress_StepDefinitions.verifyPageTitle()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5962973700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I hover over Download \u0026 Extend and click Get WordPress",
+            "match": {
+              "location": "stepDefinitions.WordPress_StepDefinitions.i_hover_over_and_click()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 40975300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify the text \"Get WordPress\" is displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Get WordPress\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepDefinitions.WordPress_StepDefinitions.i_verify_the_text_is_displayed(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5806008400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Community and click on Photo Directory",
+            "match": {
+              "location": "stepDefinitions.WordPress_StepDefinitions.i_click_community_and_photodirectory()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3618343400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I search for a picture and verify the pictures are displayed",
+            "match": {
+              "location": "stepDefinitions.WordPress_StepDefinitions.i_search_picture_and_verify()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest1"
+          }
+        ]
+      }
+    ],
+    "name": "WordPress Website Testing",
+    "description": "",
+    "id": "wordpress-website-testing",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/WordPress.feature",
+    "tags": []
+  }
+]
